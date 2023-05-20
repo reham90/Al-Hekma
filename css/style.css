@@ -1892,6 +1892,9 @@ html[dir="rtl"] .footer-accordion.active:after {
   .feature-text {
     width: 100%;
   }
+  .fixed-header .fixed-nav{
+    height: 88px;
+  }
 }
 
 @media only screen and (max-width: 994px) and (min-width: 700px) {
