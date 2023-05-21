@@ -8,8 +8,6 @@
       <link rel="icon" href="images/fav.png" type="image/png" />
       <link rel="stylesheet" href="css/all.min.css" />
       <link rel="stylesheet" href="css/line-awesome.min.css" />
-      <link rel="stylesheet" href="css/fontawesome.min.css" />
-      <link rel="stylesheet" href="css/solid.css" />
       <link rel="stylesheet" href="css/bootstrap.css" />
       <link rel="stylesheet" href="css/fonts.css" />
       <link rel="stylesheet" href="css/animate.css" />
@@ -39,6 +37,9 @@
                      <!-- search -->
                      <div class="search-section" >
                         <form class="search-form">
+                           <button class="search-btn">
+                              <i class="las la-search search-icon"></i>
+                           </button>
                            <input
                               class="search-input"
                               type="text"
@@ -53,13 +54,7 @@
                      <div class="img-logo">
                         <a href="#"><img src="images/logo.png" class="img-responsive" alt="logo"/></a>
                      </div>
-                     <div class="fixed-logo">
-                        <div class="logo-sm">
-                           <a href="#"
-                              ><img src="images/logo.png" class="img-responsive" alt="logo"
-                              /></a>
-                        </div>
-                     </div>
+                    
                      <!-- end logo-section -->
                      <!-- cart-list & language part-->
                      <div class="cart-language-part">
@@ -77,9 +72,9 @@
                               </div>
                            </li>
                            <li class="fav-icon">
-                              <button >
+                              <a href="#" class="fav-link">
                               <i class="lar la-heart"></i>
-                              </button>
+                              </a>
                            </li>
                            <li class="cart-mobile-icon">
                               <button class="cart-icon">
@@ -930,51 +925,61 @@
          <div class="container">
             <div class="categories-blocks wow fadeInDown">
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/01.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/01.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                      Human medicines
                   </a>
                </div>
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/02.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/02.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                      Veterinary medicines
                   </a>
                </div>
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/03.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/03.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                      herbal preparations
                   </a>
                </div>
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/04.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/04.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                      Beauty products
                   </a>
                </div>
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/05.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/05.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                      Hygienic products
                   </a>
@@ -1015,16 +1020,18 @@
                                  <img class="product-img img-responsive" src="images/products/01.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Panadol Extra 24 Tablets
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     8 R.S
@@ -1043,16 +1050,18 @@
                                  <img class="product-img img-responsive" src="images/products/02.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Otrivin nasal spray 10 ml
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     13.8 R.S
@@ -1071,16 +1080,18 @@
                                  <img class="product-img img-responsive" src="images/products/03.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Panadol Cold & Flu 24 Tablets
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     12.3 R.S
@@ -1099,16 +1110,18 @@
                                  <img class="product-img img-responsive" src="images/products/04.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Telfast 180 mg 15 tablets
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     28.65 R.S
@@ -1165,16 +1178,18 @@
                                  <img class="product-img img-responsive" src="images/products/05.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Povidone iodine 10% iodine spray
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     40 R.S
@@ -1193,16 +1208,18 @@
                                  <img class="product-img img-responsive" src="images/products/02.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Otrivin nasal spray 10 ml
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     13.8 R.S
@@ -1221,16 +1238,18 @@
                                  <img class="product-img img-responsive" src="images/products/06.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Labello original lip balm
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     13 R.S
@@ -1249,16 +1268,18 @@
                                  <img class="product-img img-responsive" src="images/products/07.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Cetaphil Protective Lip Balm SPF-50
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     34.5 R.S
@@ -1315,16 +1336,18 @@
                                  <img class="product-img img-responsive" src="images/products/08.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Ventolin 100 mcg Evohaler
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     15.64 R.S
@@ -1340,16 +1363,18 @@
                                  <img class="product-img img-responsive" src="images/products/09.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Epimag 5 gm 10 sachets
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     5.10 R.S
@@ -1365,16 +1390,18 @@
                                  <img class="product-img img-responsive" src="images/products/10.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Replaces 3 mg 30 tablets
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     456.69 R.S
@@ -1390,16 +1417,18 @@
                                  <img class="product-img img-responsive" src="images/products/11.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     ritocort aqua nasal spray 120
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     50.65 R.S
@@ -1453,16 +1482,18 @@
                                  <img class="product-img img-responsive" src="images/products/05.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Povidone iodine 10% iodine spray
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     40 R.S
@@ -1478,16 +1509,18 @@
                                  <img class="product-img img-responsive" src="images/products/12.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Bravo shampoo for cats and dogs
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     30 R.S
@@ -1503,16 +1536,18 @@
                                  <img class="product-img img-responsive" src="images/products/13.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Bioprox fungicide spray for cats
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     60 R.S
@@ -1528,16 +1563,18 @@
                                  <img class="product-img img-responsive" src="images/products/14.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Revolution big cats
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     160 R.S
@@ -1591,16 +1628,18 @@
                                  <img class="product-img img-responsive" src="images/products/15.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Derma epithelial a. 5 Ultra Repairing Soothing Cream 40 ml
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     40 R.S
@@ -1616,16 +1655,18 @@
                                  <img class="product-img img-responsive" src="images/products/16.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Himalaya Aloe Vera Gel to moisturize face and body 300 ml
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     30 R.S
@@ -1641,16 +1682,18 @@
                                  <img class="product-img img-responsive" src="images/products/06.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Labello original lip balm
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     13 R.S
@@ -1666,16 +1709,18 @@
                                  <img class="product-img img-responsive" src="images/products/07.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                     Cetaphil Protective Lip Balm SPF-50
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     34.5 R.S
@@ -1935,22 +1980,22 @@
                            <ul class="social-media">
                               <li>
                                  <a href="#">
-                                 <i class="fab fa-facebook"></i>
+                                 <i class="fab fa-facebook social-icon"></i>
                                  </a>
                               </li>
                               <li>
                                  <a href="#">
-                                 <i class="fab fa-snapchat"></i>
+                                 <i class="fab fa-snapchat social-icon"></i>
                                  </a>
                               </li>
                               <li>
                                  <a href="#">
-                                 <i class="fab fa-instagram"></i>
+                                 <i class="fab fa-instagram social-icon"></i>
                                  </a>
                               </li>
                               <li>
                                  <a href="#">
-                                 <i class="fab fa-twitter"></i>
+                                 <i class="fab fa-twitter social-icon"></i>
                                  </a>
                               </li>
                            </ul>
@@ -1978,10 +2023,10 @@
       <!-- footer section -->
       <!-- arrow to top -->
       <a class="arrow-top">
-      <i class="las la-arrow-up"></i>
+      <i class="las la-arrow-up arrow-top-icon"></i>
       </a>
       <!-- arrow to top -->
-      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/jquery-2.1.1.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/wow.min.js"></script>
       <script src="js/swiper.min.js"></script>

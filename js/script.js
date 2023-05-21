@@ -48,12 +48,12 @@ $(document).ready(function () {
   $(window).on('scroll load', () => {
     const scroll = $(window).scrollTop();
     if (scroll >= 200) {
-      $stickyNav.addClass('fixed-nav', 500);
+      $stickyNav.addClass('fixed-nav');
     } else {
-      $stickyNav.removeClass('fixed-nav', 500);
+      $stickyNav.removeClass('fixed-nav');
     }
     if (scroll == 0) {
-      $stickyNav.removeClass('fixed-nav', 500);
+      $stickyNav.removeClass('fixed-nav');
     }
   });
   const $stickyheader = $('header');

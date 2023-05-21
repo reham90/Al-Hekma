@@ -8,8 +8,6 @@
       <link rel="icon" href="images/fav.png" type="image/png" />
       <link rel="stylesheet" href="css/all.min.css" />
       <link rel="stylesheet" href="css/line-awesome.min.css" />
-      <link rel="stylesheet" href="css/fontawesome.min.css" />
-      <link rel="stylesheet" href="css/solid.css" />
       <link rel="stylesheet" href="css/bootstrap.css" />
       <link rel="stylesheet" href="css/bootstrap-rtl.css" />
       <link rel="stylesheet" href="css/fonts.css" />
@@ -40,6 +38,10 @@
                      <!-- search -->
                      <div class="search-section" >
                         <form class="search-form">
+                           <button class="search-btn">
+                              <i class="las la-search search-icon"></i>
+                           </button>
+                          
                            <input
                               class="search-input"
                               type="text"
@@ -54,13 +56,7 @@
                      <div class="img-logo">
                         <a href="#"><img src="images/logo.png" class="img-responsive" alt="logo"/></a>
                      </div>
-                     <div class="fixed-logo">
-                        <div class="logo-sm">
-                           <a href="#"
-                              ><img src="images/logo.png" class="img-responsive" alt="logo"
-                              /></a>
-                        </div>
-                     </div>
+                    
                      <!-- end logo-section -->
                      <!-- cart-list & language part-->
                      <div class="cart-language-part">
@@ -78,9 +74,9 @@
                               </div>
                            </li>
                            <li class="fav-icon">
-                              <button >
+                              <a href="#" class="fav-link" >
                               <i class="lar la-heart"></i>
-                              </button>
+                              </a>
                            </li>
                            <li class="cart-mobile-icon">
                               <button class="cart-icon">
@@ -280,8 +276,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="cats-dispaly">
-                        </div>
+                        
                         <!-- end mega menu-->
                      </li>
                      <li class=" slide-menu">
@@ -425,8 +420,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="cats-dispaly">
-                        </div>
+                        
                         <!-- end mega menu-->
                      </li>
                      <li class=" slide-menu">
@@ -570,8 +564,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="cats-dispaly">
-                        </div>
+                        
                         <!-- end mega menu-->
                      </li>
                      <li class=" slide-menu">
@@ -715,8 +708,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="cats-dispaly">
-                        </div>
+                        
                         <!-- end mega menu-->
                      </li>
                      <li class=" slide-menu">
@@ -860,8 +852,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="cats-dispaly">
-                        </div>
+                        
                         <!-- end mega menu-->
                      </li>
                      <li>
@@ -931,51 +922,61 @@
          <div class="container">
             <div class="categories-blocks wow fadeInDown">
                <div class="category-block">
+                  <a href="#">
                   <div class="category-img-block">
-                     <a href="#">
+                    
                      <img class="category-img" src="images/categories/01.png" alt="category img">
-                     </a>
+                   
                   </div>
+               </a>
                   <a href="#" class="category-title">
                   أدوية بشرية
                   </a>
                </div>
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/02.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/02.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                   أدوية بيطرية
                   </a>
                </div>
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/03.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/03.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                   مستحضرات عشبية
                   </a>
                </div>
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/04.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/04.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                   منتجات تجميل
                   </a>
                </div>
                <div class="category-block">
-                  <div class="category-img-block">
-                     <a href="#">
-                     <img class="category-img" src="images/categories/05.png" alt="category img">
-                     </a>
-                  </div>
+                  <a href="#">
+                     <div class="category-img-block">
+                       
+                        <img class="category-img" src="images/categories/05.png" alt="category img">
+                      
+                     </div>
+                  </a>
                   <a href="#" class="category-title">
                   مستحضرات صحية
                   </a>
@@ -1016,16 +1017,19 @@
                                  <img class="product-img img-responsive" src="images/products/01.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
-                                 <a class="product-name" href="#">
-                                 بنادول اكسترا 24 قرص
-                                 </a>
+                                 <div class="product-name-div">
+                                    <a class="product-name" href="#">
+                                       بنادول اكسترا 24 قرص
+                                       </a>
+                                 </div>
+                               
                                  <div class="price">
                                     <span class="new-price">
                                     8 ر.س
@@ -1044,16 +1048,18 @@
                                  <img class="product-img img-responsive" src="images/products/02.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  أوتريفين بخاخ للأنف 10 مل
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     13.8 ر.س
@@ -1072,16 +1078,18 @@
                                  <img class="product-img img-responsive" src="images/products/03.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  بنادول كولد اند فلو 24 قرص
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     12.3 ر.س
@@ -1100,16 +1108,18 @@
                                  <img class="product-img img-responsive" src="images/products/04.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  تلفاست 180 مجم 15 قرص
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     28.65 ر.س
@@ -1125,7 +1135,7 @@
                   </div>
                   <div class="swiper-pagination"></div>
                   <div class="swiper-btn-prev swiper-btn">
-                     <i class="las la-angle-right"></i>
+                     <i class="las la-angle-right "></i>
                   </div>
                   <div class="swiper-btn-next swiper-btn">
                      <i class="las la-angle-left"></i>
@@ -1166,16 +1176,18 @@
                                  <img class="product-img img-responsive" src="images/products/05.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  بوفيدون ايودين 10% بخاخ يود
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     40 ر.س
@@ -1194,16 +1206,18 @@
                                  <img class="product-img img-responsive" src="images/products/02.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  أوتريفين بخاخ للأنف 10 مل
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     13.8 ر.س
@@ -1222,16 +1236,18 @@
                                  <img class="product-img img-responsive" src="images/products/06.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  لابيلو مرطب شفايف اورجينال
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     13 ر.س
@@ -1250,16 +1266,18 @@
                                  <img class="product-img img-responsive" src="images/products/07.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  سيتافيل مرطب الشفاه الواقي SPF-50 
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     34.5 ر.س
@@ -1316,16 +1334,18 @@
                                  <img class="product-img img-responsive" src="images/products/08.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  فنتولين 100 مكجم ايفوهيلر
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     15.64 ر.س
@@ -1341,16 +1361,18 @@
                                  <img class="product-img img-responsive" src="images/products/09.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  ابيماج 5 جم 10 أكياس
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     5.10 ر.س
@@ -1366,16 +1388,18 @@
                                  <img class="product-img img-responsive" src="images/products/10.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  ريبلسس 3 ملجم 30 قرص
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     456.69 ر.س
@@ -1391,16 +1415,18 @@
                                  <img class="product-img img-responsive" src="images/products/11.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  ريتوكورت - اكوا بخاخ للأنف 120 
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     50.65 ر.س
@@ -1454,16 +1480,18 @@
                                  <img class="product-img img-responsive" src="images/products/05.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  بوفيدون ايودين 10% بخاخ يود
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     40 ر.س
@@ -1479,16 +1507,18 @@
                                  <img class="product-img img-responsive" src="images/products/12.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  شامبو برافو للقطط والكلاب
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     30 ر.س
@@ -1504,16 +1534,18 @@
                                  <img class="product-img img-responsive" src="images/products/13.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  بيوبيروكس بخاخ الفطريات للقطط
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     60 ر.س
@@ -1529,16 +1561,18 @@
                                  <img class="product-img img-responsive" src="images/products/14.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  ريفوليوشن قطط كبيرة
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     160 ر.س
@@ -1592,16 +1626,18 @@
                                  <img class="product-img img-responsive" src="images/products/15.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  اديرما ابيثيليال أ. 5 الترا كريم ملطف مرمم 40 مل
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     40 ر.س
@@ -1617,16 +1653,18 @@
                                  <img class="product-img img-responsive" src="images/products/16.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  هيمالايا جيل الصبار لترطيب الوجه والجسم 300 مل
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     30 ر.س
@@ -1642,16 +1680,18 @@
                                  <img class="product-img img-responsive" src="images/products/06.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  لابيلو مرطب شفايف أورجينال
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     13 ر.س
@@ -1667,16 +1707,18 @@
                                  <img class="product-img img-responsive" src="images/products/07.png" alt="product img">
                                  </a>
                                  <a href="#" class="favourite-link">
-                                 <i class="lar la-heart"></i>
+                                 <i class="lar la-heart favourite-link-icon"></i>
                                  </a>
                                  <a href="#" class="cart-link">
-                                 <i class="las la-shopping-cart"></i>
+                                 <i class="las la-shopping-cart cart-link-icon"></i>
                                  </a>
                               </div>
                               <div class="product-details">
+                                 <div class="product-name-div">
                                  <a class="product-name" href="#">
                                  سيتافيل مرطب الشفاه الواقي SPF-50
                                  </a>
+                                 </div>
                                  <div class="price">
                                     <span class="new-price">
                                     34.5 ر.س
@@ -1936,22 +1978,22 @@
                            <ul class="social-media">
                               <li>
                                  <a href="#">
-                                 <i class="fab fa-facebook"></i>
+                                 <i class="fab fa-facebook social-icon"></i>
                                  </a>
                               </li>
                               <li>
                                  <a href="#">
-                                 <i class="fab fa-snapchat"></i>
+                                 <i class="fab fa-snapchat social-icon"></i>
                                  </a>
                               </li>
                               <li>
                                  <a href="#">
-                                 <i class="fab fa-instagram"></i>
+                                 <i class="fab fa-instagram social-icon"></i>
                                  </a>
                               </li>
                               <li>
                                  <a href="#">
-                                 <i class="fab fa-twitter"></i>
+                                 <i class="fab fa-twitter social-icon"></i>
                                  </a>
                               </li>
                            </ul>
@@ -1979,10 +2021,10 @@
       <!-- footer section -->
       <!-- arrow to top -->
       <a class="arrow-top">
-      <i class="las la-arrow-up"></i>
+      <i class="las la-arrow-up arrow-top-icon"></i>
       </a>
       <!-- arrow to top -->
-      <script src="js/jquery-3.4.1.min.js"></script>
+      <script src="js/jquery-2.1.1.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/wow.min.js"></script>
       <script src="js/swiper.min.js"></script>
